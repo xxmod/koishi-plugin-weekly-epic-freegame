@@ -1,0 +1,28 @@
+{
+  "name": "koishi-plugin-weekly-epic-freegame",
+  "description": "通过Github 60sAPI获取每周免费游戏，可以自定义api、通知时间",
+  "version": "1.0.3",
+  "contributors": [
+    "xxmod <xxmod@qq.com>"
+  ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.18.7"
+  },
+  "dependencies": {
+    "axios": "^1.13.0",
+    "koishi-plugin-cron": "^3.1.0",
+    "koishi-plugin-puppeteer": "^3.9.0"
+  }
+}
